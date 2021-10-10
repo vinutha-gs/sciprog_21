@@ -1,3 +1,5 @@
+// -lm option to be added for gcc compile
+
 #include <stdio.h>
 #include <math.h>
 
