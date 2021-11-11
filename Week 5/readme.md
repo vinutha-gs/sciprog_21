@@ -1,5 +1,5 @@
 
-#input.c
+# input.c
 
   
 
@@ -15,25 +15,23 @@
 
   
 
-#fibonacci.c
+# fibonacci.c
 
   
 
 - Program to display fibonacci series upto n values
 
-	$F_{n}$ = $F_{n-1}$ + $F_{n-2}$
+<img src="https://latex.codecogs.com/png.image?\dpi{110}&space;f_n&space;=&space;f_{n-1}&space;&plus;&space;f_{n-2}" title="f_n = f_{n-1} + f_{n-2}" />
 
-	$F_{0}$ = 0 $F_{1}$ = 1
+<img src="https://latex.codecogs.com/png.image?\dpi{110}&space;f_0&space;=&space;0&space;,&space;f_1&space;=&space;1" title="f_0 = 0 , f_1 = 1" />
 
 - Using n as input we loop over n times and generate the fibinacci numbers using a function
 
-- The function takes two numbers as input which point to n-1 and n-2 values to determine what the nth
-
-fibonacci number is.
+- The function takes two numbers as input which point to n-1 and n-2 values to determine what the nth fibonacci number is.
 
   
 
-#hyperbolic_tan.c
+# hyperbolic_tan.c
 
   
 
@@ -47,15 +45,10 @@ It can be calculated in many ways. We use two different methods in this code to 
 
 1. Maclaurin series
 
-  
-
 	<a  href="https://www.codecogs.com/eqnedit.php?latex=\arctan(x)&space;=&space;\sum_{n=0}^{\infty&space;}&space;x^{2n&plus;1}&space;/&space;2n&plus;1"  target="_blank"><img  src="https://latex.codecogs.com/png.latex?\arctan(x)&space;=&space;\sum_{n=0}^{\infty&space;}&space;x^{2n&plus;1}&space;/&space;2n&plus;1"  title="\arctan(x) = \sum_{n=0}^{\infty } x^{2n+1} / 2n+1"  /></a>
 
-  
 
 2. Natural logorithms
-
-  
 
 	<a  href="https://www.codecogs.com/eqnedit.php?latex=\arctan(x)&space;=&space;1/2[\ln&space;(1&plus;x)&space;-&space;\ln(1-x)]&space;,&space;x&space;\in&space;R&space;:&space;\left&space;|&space;x&space;\right&space;|&space;<&space;1"  target="_blank"><img  src="https://latex.codecogs.com/png.latex?\arctan(x)&space;=&space;1/2[\ln&space;(1&plus;x)&space;-&space;\ln(1-x)]&space;,&space;x&space;\in&space;R&space;:&space;\left&space;|&space;x&space;\right&space;|&space;<&space;1"  title="\arctan(x) = 1/2[\ln (1+x) - \ln(1-x)] , x \in R : \left | x \right | < 1"  /></a>
 

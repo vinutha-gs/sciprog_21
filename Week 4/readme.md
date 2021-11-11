@@ -1,4 +1,4 @@
-#week4.c
+# week4.c
 
 - Calculate the values of tan(x) where x is in radians in the range[0,60]
 every five degrees. Place the results in an array. Print the array.
